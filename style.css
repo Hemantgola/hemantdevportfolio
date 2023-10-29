@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: rgb(45, 0, 57);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.main{
+    background-color: rgb(45, 0, 57);
+    color: white;
+    display: flex;
+}
+.nav-list ul{
+    list-style: none;
+    display: flex;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+.nav-list ul li{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+#homenav{
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 100px;
+}
+#element{
+    color: rgb(226, 96, 255);
+}
+.left{
+    width: 50%;
+}
+#portimg{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: url('/portfolio_image.png') no-repeat center center;
+    background-size: cover;
+    border: 3px solid white;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.right{
+    text-align: center;
+    width: 50%;
+}
+#intro{
+    margin-top: 200px;
+}
+.about hr{
+    width: 0px;
+    height: 2px;
+    background-color: rgb(226, 96, 255);
+    width: 2px;
+    height: 500px;
+}
+.about{
+    background-color: rgb(45, 0, 57);
+    color: white;
+    height: 400px;
+    text-align: center;
+}
+.python{
+    height: 50px;
+}
+.journey{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.pythondiv{
+    display: flex;
+    flex-direction: column;
+}
+.journey h3{
+    margin-left: 5px;
+    position: absolute;
+    top: 653px;
+    left: 120px;
+}
+.pythondiv img{
+    position: absolute;
+    left: 86px;
+    top: 705px;
+}
+.pythondiv h4{
+    position: absolute;
+    left: 86px;
+    top: 765px;
+}
+.about h3{
+    margin-top: 20px;
+}
+#witho{
+    position: absolute;
+    top: 653px;
+    left: 180px;
+}
+.second{
+    position: absolute;
+    left: 200px;
+    top: -30px;
+}
+.web_dev{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: 50px;
+}
+.article{
+    display: flex;
+}
+.article article{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.about h2{
+    padding-top: 50px;
+}
+#contact{
+    background-color: rgb(45, 0, 57);
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#contact h2{
+    padding-top: 20px;
+}
+#contact h3{
+    margin-top: 20px;
+}
+.footer{
+    background-color: rgb(45, 0, 57);
+    color: white;
+}
+.footer footer{
+    text-align: center;
+    padding: 30px 0px;
+}
+@media only screen and (max-width : 1236px){
+    .nav-list ul li a{
+        display: none;
+    }
+    .nav-list ul{
+        margin-left: 400px;
+    }
+    .line{
+        height: 2px;
+        background-color: whitesmoke;
+        width: 40px;
+        margin: 10px 5px;
+    }
+    .burger{
+        border: 2px solid white;
+        border-radius: 2px;
+        height: 50px;
+        width: 50px;
+    }
+    .main{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .right{
+        margin-top: -200px;
+        margin-bottom: 50px;
+    }
+}
