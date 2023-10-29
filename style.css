@@ -46,7 +46,7 @@ body{
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    background: url('/portfolio_image.png') no-repeat center center;
+    background: url('/hemantdevportfolio/portfolio_image.png') no-repeat center center;
     background-size: cover;
     border: 3px solid white;
     margin-left: 200px;
